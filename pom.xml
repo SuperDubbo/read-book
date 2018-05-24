@@ -11,5 +11,7 @@
   </dependencies>
   <modules>
     <module>jvm-book</module>
+    <module>camel-kafka</module>
+    <module>common-tool</module>
   </modules>
 </project>
