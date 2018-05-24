@@ -17,7 +17,7 @@ public class WatermarkImgUtils {
 
     public static void main(String[] args) {
         System.out.println("开始水印：");
-        new WatermarkImgUtils().addWatermark("D:\\Users\\001302\\桌面\\2\\1\\123.jpg", "D:\\Users\\001302\\桌面\\2\\1\\456.jpg", "仅供蛋壳租赁合同使用，他用无效！", "jpg");
+        new WatermarkImgUtils().addWatermark("D:\\Users\\001302\\桌面\\2\\1\\123.jpg", "D:\\Users\\001302\\桌面\\2\\1\\456.jpg", "仅供本人与蛋壳租赁合同使用，他用无效！", "jpg");
         System.out.println("水印完成。");
     }
 
@@ -25,11 +25,11 @@ public class WatermarkImgUtils {
         //水印字体大小
         Font font=new Font("宋体",Font.BOLD,36);
         //水印颜色
-        Color markContentColor=Color.gray;
+        Color markContentColor=Color.lightGray;
         //设置水印文字的旋转角度
         Integer degree=45;
         //设置水印透明度
-        float alpha=0.5f;
+        float alpha=0.6f;
         OutputStream outputStream=null;
         try{
             //获得源文件
